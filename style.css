@@ -128,7 +128,7 @@ button#reset, button#clear {
 section {
     width: fit-content;
     margin: 0 auto;
-    background: url('images/_paper.jpg') repeat;
+    background: url('images/background.jpg') repeat;
     padding: 4em;
     margin-top: 2em;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5);
