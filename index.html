@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rébus Factory</title>
+    <script src="images.js"></script>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <main>
+        <h1 id="titre">Rébus <span>Factory</span></h1>
+
+        <div class="field">
+            <div class="input">
+                <input type="text" id="phrase" placeholder="Entrez des phonèmes ou syllabes séparés par des espaces" />
+                <button id="reset">&times;</button>
+            </div>
+            <button id="go">Go</button>
+        </div>
+
+        <section>
+            <div id="resultat"></div>
+        </section>
+
+        <div class="options">
+            <label><input type="checkbox" name="vrac" id="vrac"> Cartes en vrac !</label>
+            <label><input type="checkbox" name="son" id="son"> Jouer les sons</label>
+            <label><input type="checkbox" name="showtags" id="showtags"> Montrer les tags</label>
+            <label class="last"><input type="checkbox" name="hidephrase" id="hidephrase"> Cacher la phrase</label>
+            <button id="open" title="Ouvrir le Rébus dans une nouvelle fenêtre">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12,10L8,14H11V20H13V14H16M19,4H5C3.89,4 3,4.9 3,6V18A2,2 0 0,0 5,20H9V18H5V8H19V18H15V20H19A2,2 0 0,0 21,18V6A2,2 0 0,0 19,4Z"/></svg>
+                Ouvrir la Popup
+            </button>
+        </div>
+    </main>
+
+
+    <aside>
+        <header>
+            <input type="text" name="filter" id="filter" placeholder="Filtrer les tags" />
+            <button id="clear">&times;</button>
+        </header>
+        <div id="tags" class="tags"></div>
+    </aside>
+
+    <footer>
+        <span>
+            Par Denis THEVENOT
+            &copy;2025
+        </span>
+        <span>
+            Version <code>1.0.0</code>
+            <button id="menu">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 4H4A2 2 0 0 0 2 6V18A2 2 0 0 0 4 20H20A2 2 0 0 0 22 18V6A2 2 0 0 0 20 4M15 18H4V6H15Z"/></svg>
+            </button>
+        </span>
+    </footer>
+</body>
+
+</html>
