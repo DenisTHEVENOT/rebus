@@ -229,10 +229,9 @@ document.addEventListener('DOMContentLoaded', async () => {
         )
 
         if (popup) {
-            console.dir(popup)
-            setTimeout(() => {
+            popup.addEventListener('DOMContentLoaded', () => {
                 popup.document.querySelector('footer code').textContent = version
-            }, 100)
+            })
             // popup.document.close()
             // Quand la popup est fermée, remettre popup à null
             popup.onbeforeunload = () => { popup = null }
