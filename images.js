@@ -160,8 +160,8 @@ const rebus = [
         "tags": "colle,cole,col"
     },
     {
-        "img": "con.jpg",
-        "tags": "con"
+        "img": "kon.jpg",
+        "tags": "con,cons,kon,com"
     },
     {
         "img": "coq.jpg",
