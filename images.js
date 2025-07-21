@@ -4,6 +4,10 @@ const rebus = [
         "tags": "age,âge"
     },
     {
+        "img": "aiguille.jpg",
+        "tags": "aiguille,aiguilles"
+    },
+    {
         "img": "ail.jpg",
         "tags": "ail,aille,aye"
     },
@@ -96,6 +100,10 @@ const rebus = [
         "tags": "beau,bo,bau"
     },
     {
+        "img": "bec.jpg",
+        "tags": "bec,bèque,becs,baique"
+    },
+    {
         "img": "beurre.jpg",
         "tags": "beurre,beure,beur"
     },
@@ -132,6 +140,10 @@ const rebus = [
         "tags": "borgne,borgnes"
     },
     {
+        "img": "botte.jpg",
+        "tags": "botte,bote,bott,bôte,bot"
+    },
+    {
         "img": "bout.jpg",
         "tags": "bout,boue,bou"
     },
@@ -154,6 +166,10 @@ const rebus = [
     {
         "img": "cassé.jpg",
         "tags": "cassé,casser"
+    },
+    {
+        "img": "ce.jpg",
+        "tags": "ce,se,ceux,ceu,sseu,sseux"
     },
     {
         "img": "cercle.jpg",
@@ -180,6 +196,10 @@ const rebus = [
         "tags": "chaud,cho"
     },
     {
+        "img": "cher.jpg",
+        "tags": "cher,chère,cherre,chair,chaire"
+    },
+    {
         "img": "chie.jpg",
         "tags": "chie,chi"
     },
@@ -202,6 +222,10 @@ const rebus = [
     {
         "img": "clou.jpg",
         "tags": "clou"
+    },
+    {
+        "img": "code.jpg",
+        "tags": "code,codes,quod,quode"
     },
     {
         "img": "coeur.jpg",
@@ -394,6 +418,14 @@ const rebus = [
     {
         "img": "grand.jpg",
         "tags": "grand,gran,gren"
+    },
+    {
+        "img": "grande.jpg",
+        "tags": "grande,grende"
+    },
+    {
+        "img": "gris.jpg",
+        "tags": "gris,gri"
     },
     {
         "img": "gros.jpg",
@@ -656,6 +688,10 @@ const rebus = [
         "tags": "pas,pa"
     },
     {
+        "img": "pate.jpg",
+        "tags": "pate,pâte,patte,pat"
+    },
+    {
         "img": "père.jpg",
         "tags": "père,per,pere,pair,paire"
     },
@@ -666,6 +702,10 @@ const rebus = [
     {
         "img": "petit.jpg",
         "tags": "petit,peti"
+    },
+    {
+        "img": "petite.jpg",
+        "tags": "petite"
     },
     {
         "img": "peur.jpg",
@@ -732,6 +772,10 @@ const rebus = [
         "tags": "pot,po,peau,pau"
     },
     {
+        "img": "pou.jpg",
+        "tags": "pou"
+    },
+    {
         "img": "poule.jpg",
         "tags": "poule,poulle,poul"
     },
@@ -765,7 +809,11 @@ const rebus = [
     },
     {
         "img": "qui.jpg",
-        "tags": "qui"
+        "tags": "qui,ki"
+    },
+    {
+        "img": "quille.jpg",
+        "tags": "quille"
     },
     {
         "img": "raie.jpg",
