@@ -96,6 +96,10 @@ const rebus = [
         "tags": "batte,bate,batt,bâte"
     },
     {
+        "img": "bave.jpg",
+        "tags": "bave"
+    },
+    {
         "img": "beau.jpg",
         "tags": "beau,bo,bau"
     },
@@ -222,6 +226,14 @@ const rebus = [
     {
         "img": "clou.jpg",
         "tags": "clou"
+    },
+    {
+        "img": "cochon.jpg",
+        "tags": "cochon"
+    },
+    {
+        "img": "coco.jpg",
+        "tags": "coco,koko"
     },
     {
         "img": "code.jpg",
@@ -408,6 +420,10 @@ const rebus = [
         "tags": "gars,ga"
     },
     {
+        "img": "gaz.jpg",
+        "tags": "gaz,gaze,gase"
+    },
+    {
         "img": "gonfle.jpg",
         "tags": "gonfle"
     },
@@ -454,6 +470,10 @@ const rebus = [
     {
         "img": "heaume.jpg",
         "tags": "heaume,ome,home,homme,hôme,ôme"
+    },
+    {
+        "img": "herbe.jpg",
+        "tags": "herbe,erbe,erb,herb,herbes"
     },
     {
         "img": "heure.jpg",
@@ -524,6 +544,10 @@ const rebus = [
         "tags": "lettre,lètre,letre,letr,létre,laitre"
     },
     {
+        "img": "lievre.jpg",
+        "tags": "lievre,lièvre"
+    },
+    {
         "img": "ligne.jpg",
         "tags": "ligne"
     },
@@ -534,6 +558,10 @@ const rebus = [
     {
         "img": "loup.jpg",
         "tags": "loup,lou"
+    },
+    {
+        "img": "lune.jpg",
+        "tags": "lune,lunne"
     },
     {
         "img": "lys.jpg",
@@ -716,6 +744,10 @@ const rebus = [
         "tags": "phare,far,fare,phar"
     },
     {
+        "img": "phi.jpg",
+        "tags": "phi,fi,fit,fie,fis,phie"
+    },
+    {
         "img": "pie.jpg",
         "tags": "pie,pi,pis"
     },
@@ -822,6 +854,10 @@ const rebus = [
     {
         "img": "rat.jpg",
         "tags": "rat,ra"
+    },
+    {
+        "img": "rire.jpg",
+        "tags": "rire,rir"
     },
     {
         "img": "riz.jpg",
@@ -1002,6 +1038,10 @@ const rebus = [
     {
         "img": "tue.jpg",
         "tags": "tue,tu"
+    },
+    {
+        "img": "tuyau.jpg",
+        "tags": "tuyau,tuyaux"
     },
     {
         "img": "u.jpg",
